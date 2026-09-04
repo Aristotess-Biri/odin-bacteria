@@ -167,12 +167,18 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+::selection {
+    color: var(--dark-blue);
+    background: var(--white);
+}
+
 header {
-    padding: 0vw 8vw;
+    background: var(--dark-blue);
+    padding: 6px 8vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--dark-blue);
+    
 }
 
 p.header-logo {
@@ -191,4 +197,25 @@ ul.header-links {
 a {
     text-decoration: none;
     color: var(--off-white);
+}
+
+section.hero {
+    background: var(--dark-blue);
+    color: var(--white);
+    padding: 50px 8vw;
+    display: flex;
+    gap: 12px;
+}
+
+.hero>.hero-rt {
+}
+
+h1 {
+    font-size: var(--font-1);
+    line-height: 1.2em;
+}
+
+button {
+    padding: 6px 24px;
+    margin-top: 6px;
 }
