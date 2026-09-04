@@ -179,4 +179,16 @@ p.header-logo {
        color: var(--white);
        font-size: var(--font-3);
        font-weight: bold;
-    }
+}
+
+ul.header-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--off-white);
+}
