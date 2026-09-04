@@ -197,6 +197,7 @@ ul.header-links {
 a {
     text-decoration: none;
     color: var(--off-white);
+    opacity: 90%;
 }
 
 section.hero {
@@ -204,10 +205,17 @@ section.hero {
     color: var(--white);
     padding: 50px 8vw;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 12px;
 }
 
-.hero>.hero-rt {
+.hero-lt {
+    flex: 2;
+}
+
+.hero-rt {
+    flex: 3;
 }
 
 h1 {
@@ -215,7 +223,23 @@ h1 {
     line-height: 1.2em;
 }
 
+p {
+    line-height: 1.1em;
+    color: var(--off-white);
+    
+}
+
 button {
+    background: var(--light-blue);
+    color: var(--white);
     padding: 6px 24px;
-    margin-top: 6px;
+    margin-top: 12px;
+    border-radius: 16%;
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        display: flex;
+        flex-flow: column-reverse wrap;
+    }
 }
