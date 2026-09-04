@@ -142,3 +142,27 @@ padding is optional but i do this because of lists*/
 }
 
 /* My Custom CSS */
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf);
+}
+
+:root {
+    /* Colors */
+    --dark-blue: #1F2937;
+    --light-blue: #3882F6;
+    --white: #F9FAF8;
+    --off-white: #E5E7EB;
+    --black: #1F2937;
+    --ash: #E5E7EB;
+
+    /* Font Size */
+    --font-1: 48px;
+    --font-2: 36px;
+    --font-3: 24px;
+    --font-4: 18px;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
