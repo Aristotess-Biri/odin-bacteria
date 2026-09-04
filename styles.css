@@ -163,6 +163,19 @@ padding is optional but i do this because of lists*/
     --font-4: 18px;
 }
 
-html {
+body {
     font-family: "Roboto", sans-serif;
+    padding: 0vw 8vw;
+}
+
+header {
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-img {
+    width: 50px;
+    height: auto;
+    flex-shrink: 0;
 }
