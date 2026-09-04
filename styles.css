@@ -165,17 +165,18 @@ padding is optional but i do this because of lists*/
 
 body {
     font-family: "Roboto", sans-serif;
-    padding: 0vw 8vw;
 }
 
 header {
-    padding-top: 12px;
+    padding: 0vw 8vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: var(--dark-blue);
 }
-.logo-img {
-    width: 50px;
-    height: auto;
-    flex-shrink: 0;
-}
+
+p.header-logo {
+       color: var(--white);
+       font-size: var(--font-3);
+       font-weight: bold;
+    }
