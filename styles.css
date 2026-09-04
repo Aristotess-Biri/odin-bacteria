@@ -212,6 +212,11 @@ section.hero {
 
 .hero-lt {
     flex: 2;
+    & p {
+        line-height: 1.1em;
+        color: var(--off-white);  
+        opacity: 90%;
+}
 }
 
 .hero-rt {
@@ -221,12 +226,6 @@ section.hero {
 h1 {
     font-size: var(--font-1);
     line-height: 1.2em;
-}
-
-p {
-    line-height: 1.1em;
-    color: var(--off-white);
-    
 }
 
 button {
