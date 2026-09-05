@@ -347,7 +347,20 @@ button.blue-box-btn {
     border: 1.5px solid var(--white);
 }
 
-/* Turn off css reset, change ul marg & padd */
+footer {
+    background: var(--dark-blue);
+    color: var(--off-white);
+    font-weight: 300;
+    padding: 12px 8vw;
+
+    & p {
+        text-align: center;
+    }
+
+    & a {
+        text-decoration: underline 1px dotted;
+    }
+}
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
