@@ -198,7 +198,7 @@ ul.header-links {
 a {
     text-decoration: none;
     color: var(--off-white);
-    opacity: 90%;
+    font-weight: 300;
 }
 
 /* Hero */
@@ -217,7 +217,7 @@ section.hero {
     & p {
         line-height: 1.1em;
         color: var(--off-white);  
-        opacity: 90%;
+        font-weight: 300;
 }
 }
 
