@@ -264,6 +264,8 @@ section.info {
     & p {
         max-width: 20ch;
         text-align: center;
+        color: var(--black);
+        font-weight: 350;
     }
 
     display: flex;
