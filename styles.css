@@ -213,7 +213,7 @@ section.hero {
 }
 
 .hero-lt {
-    flex: 2;
+    /* flex: 2; */
     & p {
         line-height: 1.1em;
         color: var(--off-white);  
@@ -221,9 +221,9 @@ section.hero {
     }
 }
 
-.hero-rt {
+/* .hero-rt {
     flex: 3;
-}
+} */
 
 h1 {
     font-size: var(--font-1);
